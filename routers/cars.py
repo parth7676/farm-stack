@@ -6,7 +6,7 @@ from starlette import status
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 
-from backend.models import CarBase, CarDB, CarUpdate
+from models import CarBase, CarDB, CarUpdate
 
 router = APIRouter()
 
